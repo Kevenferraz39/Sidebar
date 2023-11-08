@@ -1,0 +1,3 @@
+# Neste exemplo, a barra lateral é inicialmente oculta e pode ser aberta clicando no botão "☰ Open Sidebar". Quando o botão é clicado, a função openNav é chamada para alternar entre a exibição e a ocultação da barra lateral. A barra lateral também é responsiva e é ocultada em telas menores, com o botão de abertura visível.
+
+# Lembre-se de incluir os arquivos HTML, CSS e JavaScript em seu projeto e personalizar o conteúdo da barra lateral e o estilo de acordo com suas necessidades.

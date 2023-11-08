@@ -1,0 +1,58 @@
+/* Estilos da barra lateral */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidebar-content {
+    padding: 60px 0;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  /* Estilos da página principal */
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  
+  /* Responsividade */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 0;
+    }
+  
+    .openbtn {
+      display: block;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  }
+  
